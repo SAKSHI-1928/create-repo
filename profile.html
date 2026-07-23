@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student HUB | Profile</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef5ff;
+}
+
+/* Header */
+
+header{
+    background:#0A4D9C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#FFD700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Banner */
+
+.banner{
+    background:linear-gradient(to right,#0A4D9C,#4A90E2);
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.banner h1{
+    font-size:42px;
+}
+
+.banner p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+/* Profile Card */
+
+.profile-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px 20px;
+}
+
+.profile-card{
+    width:800px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    padding:40px;
+}
+
+.profile-header{
+    text-align:center;
+}
+
+.profile-header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid #0A4D9C;
+}
+
+.profile-header h2{
+    margin-top:15px;
+    color:#0A4D9C;
+}
+
+.profile-header p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.profile-details{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.detail-box{
+    background:#f4f9ff;
+    padding:15px;
+    border-radius:10px;
+}
+
+.detail-box h3{
+    color:#0A4D9C;
+    margin-bottom:8px;
+}
+
+.detail-box p{
+    color:#444;
+}
+
+/* Button */
+
+.btn{
+    display:block;
+    width:220px;
+    margin:40px auto 0;
+    text-align:center;
+    background:#0A4D9C;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#083b75;
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+    background:#0A4D9C;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Student <span>HUB</span>
+</div>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h1>Student Profile</h1>
+
+<p>Your Personal Information</p>
+
+</section>
+
+<div class="profile-container">
+
+<div class="profile-card">
+
+<div class="profile-header">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Student">
+
+<h2>Sakshi Gadhiya</h2>
+
+<p>B.Tech Computer Science Engineering</p>
+
+</div>
+
+<div class="profile-details">
+
+<div class="detail-box">
+<h3>Student ID</h3>
+<p>25CS014</p>
+</div>
+
+<div class="detail-box">
+<h3>Semester</h3>
+<p>2nd Semester</p>
+</div>
+
+<div class="detail-box">
+<h3>Department</h3>
+<p>Computer Science Engineering</p>
+</div>
+
+<div class="detail-box">
+<h3>Email</h3>
+<p>25cs014@college.edu.in</p>
+</div>
+
+<div class="detail-box">
+<h3>Phone</h3>
+<p>+91 98765 43210</p>
+</div>
+
+<div class="detail-box">
+<h3>Address</h3>
+<p>Anand, Gujarat, India</p>
+</div>
+
+<div class="detail-box">
+<h3>Attendance</h3>
+<p>90%</p>
+</div>
+
+<div class="detail-box">
+<h3>Status</h3>
+<p>Active Student</p>
+</div>
+
+</div>
+
+<a href="dashboard.html" class="btn">Go to Dashboard</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Student HUB</h3>
+
+<p>© 2026 Student HUB | College Management Portal</p>
+
+</footer>
+
+</body>
+</html>

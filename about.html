@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student HUB | About Us</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef5ff;
+}
+
+/* Header */
+
+header{
+    background:#0A4D9C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#FFD700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Banner */
+
+.banner{
+    background:linear-gradient(to right,#0A4D9C,#4A90E2);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.banner h1{
+    font-size:45px;
+}
+
+.banner p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+/* About Section */
+
+.about{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.about h2{
+    color:#0A4D9C;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
+
+/* Mission Cards */
+
+.container{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0A4D9C;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.6;
+}
+
+/* Button */
+
+.btn{
+    display:block;
+    width:220px;
+    margin:40px auto;
+    text-align:center;
+    background:#0A4D9C;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#083b75;
+}
+
+/* Footer */
+
+footer{
+    background:#0A4D9C;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Student <span>HUB</span>
+</div>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h1>About Student HUB</h1>
+
+<p>Your Digital College Management Portal</p>
+
+</section>
+
+<section class="about">
+
+<h2>Who We Are</h2>
+
+<p>
+Student HUB is a modern college portal designed to make student life easier.
+It provides one platform where students can check attendance, view class
+timetables, stay updated with college events, manage their profiles, and access
+important academic information anytime.
+</p>
+
+<br>
+
+<p>
+Our goal is to simplify communication between students and the college by
+offering a secure, user-friendly, and responsive web portal that works on both
+desktop and mobile devices.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+<h3>🎯 Our Mission</h3>
+<p>
+To provide students with a smart, simple, and efficient platform for managing
+their academic activities.
+</p>
+</div>
+
+<div class="card">
+<h3>👁 Our Vision</h3>
+<p>
+To create a digital campus where every student can access information quickly,
+securely, and from anywhere.
+</p>
+</div>
+
+<div class="card">
+<h3>⭐ Our Values</h3>
+<p>
+Innovation, Transparency, Learning, Collaboration, and Student Success are the
+core values of Student HUB.
+</p>
+</div>
+
+</div>
+
+<a href="dashboard.html" class="btn">Go to Dashboard</a>
+
+<footer>
+
+<h3>Student HUB</h3>
+
+<p>© 2026 Student HUB | Empowering Students Through Technology</p>
+
+</footer>
+
+</body>
+</html>

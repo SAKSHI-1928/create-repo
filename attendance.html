@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student HUB | Attendance</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef5ff;
+}
+
+/* Header */
+
+header{
+    background:#0A4D9C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#FFD700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:17px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* Banner */
+
+.banner{
+    background:linear-gradient(to right,#0A4D9C,#4A90E2);
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.banner h1{
+    font-size:40px;
+}
+
+.banner p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* Attendance Table */
+
+.container{
+    width:90%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    color:#0A4D9C;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#0A4D9C;
+    color:white;
+    padding:15px;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:15px;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#f4f9ff;
+}
+
+.present{
+    color:green;
+    font-weight:bold;
+}
+
+.absent{
+    color:red;
+    font-weight:bold;
+}
+
+/* Attendance Percentage */
+
+.progress-box{
+    margin-top:30px;
+}
+
+.progress-box h3{
+    margin-bottom:10px;
+    color:#0A4D9C;
+}
+
+.progress{
+    width:100%;
+    background:#ddd;
+    border-radius:20px;
+}
+
+.progress-bar{
+    width:90%;
+    background:green;
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.buttons{
+    margin-top:30px;
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    background:#0A4D9C;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#083b75;
+}
+
+/* Footer */
+
+footer{
+    background:#0A4D9C;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Student <span>HUB</span>
+</div>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h1>Attendance Record</h1>
+
+<p>Track your subject-wise attendance.</p>
+
+</section>
+
+<div class="container">
+
+<h2>Current Semester Attendance</h2>
+
+<table>
+
+<tr>
+<th>Subject</th>
+<th>Total Classes</th>
+<th>Present</th>
+<th>Absent</th>
+<th>Percentage</th>
+</tr>
+
+<tr>
+<td>Java Programming</td>
+<td>40</td>
+<td class="present">37</td>
+<td class="absent">3</td>
+<td>92%</td>
+</tr>
+
+<tr>
+<td>Database Management System</td>
+<td>38</td>
+<td class="present">34</td>
+<td class="absent">4</td>
+<td>89%</td>
+</tr>
+
+<tr>
+<td>Computer Networks</td>
+<td>35</td>
+<td class="present">32</td>
+<td class="absent">3</td>
+<td>91%</td>
+</tr>
+
+<tr>
+<td>Operating System</td>
+<td>36</td>
+<td class="present">33</td>
+<td class="absent">3</td>
+<td>92%</td>
+</tr>
+
+<tr>
+<td>Mathematics</td>
+<td>42</td>
+<td class="present">37</td>
+<td class="absent">5</td>
+<td>88%</td>
+</tr>
+
+</table>
+
+<div class="progress-box">
+
+<h3>Overall Attendance</h3>
+
+<div class="progress">
+<div class="progress-bar">
+90%
+</div>
+</div>
+
+</div>
+
+<div class="buttons">
+
+<a href="dashboard.html" class="btn">⬅ Back to Dashboard</a>
+
+<a href="grades.html" class="btn">📊 Grades</a>
+</div>
+
+</div>
+
+<footer>
+
+<h3>Student HUB</h3>
+
+<p>© 2026 Student HUB | College Management Portal</p>
+
+</footer>
+
+</body>
+</html>

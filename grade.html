@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student HUB | Grades</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef5ff;
+}
+
+/* Header */
+
+header{
+background:#0A4D9C;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+.logo span{
+color:#FFD700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+/* Banner */
+
+.banner{
+background:linear-gradient(to right,#0A4D9C,#4A90E2);
+color:white;
+text-align:center;
+padding:50px;
+}
+
+.banner h1{
+font-size:42px;
+}
+
+/* Table */
+
+.container{
+width:90%;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:#0A4D9C;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+tr:nth-child(even){
+background:#f4f9ff;
+}
+
+.sgpa{
+margin-top:30px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+color:green;
+}
+
+.buttons{
+text-align:center;
+margin-top:30px;
+}
+
+.btn{
+display:inline-block;
+background:#0A4D9C;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:8px;
+margin:10px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#083b75;
+}
+
+footer{
+background:#0A4D9C;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Student <span>HUB</span>
+
+</div>
+
+<nav>
+
+<a href="home.html">Home</a>
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="profile.html">Profile</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h1>Semester Grades</h1>
+
+<p>B.Tech CSE - Semester 2</p>
+
+</section>
+
+<div class="container">
+
+<table>
+
+<tr>
+
+<th>Subject</th>
+
+<th>Credits</th>
+
+<th>Grade</th>
+
+<th>Grade Point</th>
+
+</tr>
+
+<tr>
+
+<td>Java Programming</td>
+
+<td>4</td>
+
+<td>A+</td>
+
+<td>10</td>
+
+</tr>
+
+<tr>
+
+<td>Database Management System</td>
+
+<td>4</td>
+
+<td>A</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>Operating System</td>
+
+<td>3</td>
+
+<td>B+</td>
+
+<td>8</td>
+
+</tr>
+
+<tr>
+
+<td>Computer Network</td>
+
+<td>3</td>
+
+<td>A</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>Mathematics</td>
+
+<td>4</td>
+
+<td>A+</td>
+
+<td>10</td>
+
+</tr>
+
+<tr>
+
+<td>Python Programming</td>
+
+<td>3</td>
+
+<td>A</td>
+
+<td>9</td>
+
+</tr>
+
+</table>
+
+<div class="sgpa">
+
+Overall SGPA : 9.32
+
+</div>
+
+<div class="buttons">
+
+<a href="dashboard.html" class="btn">⬅ Dashboard</a>
+
+<a href="attendance.html" class="btn">Attendance</a>
+
+<a href="events.html" class="btn">Events</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Student HUB</h3>
+
+<p>© 2026 Student HUB | Grade Management System</p>
+
+</footer>
+
+</body>
+
+</html>
